@@ -8,3 +8,14 @@ Discordのロールを付与/剥奪することのできるBotです。
 [Discorddeveloperポータル](https://discord.com/developers/)で**管理権限**(推奨)のあるアプリを作成し、自分のサーバーに導入してください。<br>
 Botトークンが必要となります。<br>
 このBotトークンは一度しか表示されませんが、再生成ができます。
+
+config.jsonを開いて以下の設定をします。
+```json
+{
+    "token": "BotTOKENに置き換えてね", 
+    "channel": "ドロップダウンを送信するチャンネルID", 
+    "mapping": {
+        "表示するロール名":"ロールID"
+    }
+}
+```
